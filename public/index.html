@@ -5,7 +5,6 @@
 
   <!-- build:css assets/styles/vendor.css -->
   <!-- bower:css -->
-
   <!-- endbower -->
 
 
@@ -21,17 +20,28 @@
   <title>Angular Offline demo</title>
 </head>
 <body ng-app="app">
+  <div ui-view="menu"></div><br>
   <div ui-view="content"></div>
+
 
   <!-- build:js app/vendor.js -->
   <!-- bower:js -->
-
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
   <!-- build:js app/main.js -->
   <!-- include: "type": "js", "files": "app/**/**/*.js", "ordering": "top-down" -->
 
+ <script src="app/app.js"></script>
+  <script src="app/appconstants.js"></script>
+  <script src="app/modules/modules.controller.js"></script>
+  <script src="app/modules/modules.js"></script>
+  <script src="app/modules/module1/module1.controller.js"></script>
+  <script src="app/modules/module1/module1.js"></script>
+  <script src="app/modules/module2/module2.controller.js"></script>
+  <script src="app/modules/module2/module2.js"></script>
   <!-- /include -->
   <!-- endbuild -->
 </body>
