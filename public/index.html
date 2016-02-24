@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- build:css assets/styles/vendor.css -->
+  <!-- bower:css -->
+
+  <!-- endbower -->
+
+
+  <!-- endbuild -->
+
+  <!-- build:css assets/styles/main.css -->
+  <!-- include: "type": "css", "files": "assets/styles/**/*.css" -->
+  <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
+  <!-- /include -->
+  <!-- endbuild -->
+
+
+  <title>Angular Offline demo</title>
+</head>
+<body ng-app="app">
+  <div ui-view="content"></div>
+
+  <!-- build:js app/vendor.js -->
+  <!-- bower:js -->
+
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js app/main.js -->
+  <!-- include: "type": "js", "files": "app/**/**/*.js", "ordering": "top-down" -->
+
+  <!-- /include -->
+  <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "AngularOffline",
+  "version": "1.0.0",
+  "description": "AngularOffline demo",
+  "private": false,
+  "appPath": "public/",
+  "authors": [
+    "Pedro Lopes <pedro.lopix@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.0",
+    "angular-ui-router": "0.2.15",
+    "bootstrap": "3.3.5"
+  }
+}
